@@ -1,0 +1,8 @@
+{
+    "temperature_dev": "/dev/ttyUSB0",
+    "temperature_baudrate": 9600
+
+
+
+
+}

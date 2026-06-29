@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/dyj/project/ChargingTerminal/build/cmake_install.cmake",
+		"/home/dyj/project/ChargingTerminal/build/lib/lvgl/cmake_install.cmake",
+		"/home/dyj/project/ChargingTerminal/build/lib/lv_drivers/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
