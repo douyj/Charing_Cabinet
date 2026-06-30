@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dyj/project/ChargingTerminal/src/device/modbus_bus.c" "CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o" "gcc" "CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o.d"
   "/home/dyj/project/ChargingTerminal/src/device/temperature_sensor.c" "CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o" "gcc" "CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o.d"
   "/home/dyj/project/ChargingTerminal/src/main.c" "CMakeFiles/charging_terminal.dir/src/main.c.o" "gcc" "CMakeFiles/charging_terminal.dir/src/main.c.o.d"
+  "/home/dyj/project/ChargingTerminal/src/ui/ui_bottom_bar.c" "CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.o" "gcc" "CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.o.d"
   "/home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c" "CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o" "gcc" "CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o.d"
   "/home/dyj/project/ChargingTerminal/src/ui/ui_status_card.c" "CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o" "gcc" "CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o.d"
   "/home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c" "CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o" "gcc" "CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o.d"

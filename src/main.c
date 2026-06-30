@@ -6,6 +6,7 @@
 #include "chinese/ui_fonts.h"
 #include "ui/ui_cabinet_card.h"
 #include "ui/ui_system_log.h"
+#include "ui/ui_bottom_bar.h"
 
 int main(void)
 {
@@ -38,6 +39,9 @@ int main(void)
     ui_create_slot_area(lv_scr_act());
 
     ui_create_log_panel(lv_scr_act());
+
+    ui_create_bottom_area(lv_scr_act());
+
 
     /* LVGL 主循环：不断处理定时器和事件 */
     while (1) {

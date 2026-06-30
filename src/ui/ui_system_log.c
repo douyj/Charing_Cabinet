@@ -39,8 +39,8 @@ static void ui_create_log_item(lv_obj_t *parent, int y, const char *time_text, c
 void ui_create_log_panel(lv_obj_t *parent)
 {
     lv_obj_t *panel = lv_obj_create(parent);
-    lv_obj_set_size(panel, 224, 255);
-    lv_obj_set_pos(panel, 558, 155);
+    lv_obj_set_size(panel, 224, 248);
+    lv_obj_set_pos(panel, 558, 153);
 
     lv_obj_set_style_bg_color(panel, lv_color_hex(0xFFFFFF), 0);
     lv_obj_set_style_bg_opa(panel, LV_OPA_COVER, 0);
@@ -85,7 +85,7 @@ void ui_create_log_panel(lv_obj_t *parent)
      */
     lv_obj_t *line = lv_obj_create(panel);
     lv_obj_set_size(line, 188, 1);
-    lv_obj_set_pos(line, 18, 180);
+    lv_obj_set_pos(line, 18, 215);
     lv_obj_set_style_bg_color(line, lv_color_hex(0xE5EAF2), 0);
     lv_obj_set_style_bg_opa(line, LV_OPA_COVER, 0);
     lv_obj_set_style_border_width(line, 0, 0);
@@ -96,7 +96,7 @@ void ui_create_log_panel(lv_obj_t *parent)
      */
     lv_obj_t *more = lv_label_create(panel);
     lv_label_set_text(more, "查看更多 >");
-    lv_obj_set_pos(more, 82, 194);
+    lv_obj_set_pos(more, 82, 225);
     lv_obj_set_style_text_color(more, lv_color_hex(0x1677FF), 0);
     lv_obj_set_style_text_font(more, ui_font_zh_12(), 0);
 }

@@ -37,6 +37,12 @@
 },
 {
   "directory": "/home/dyj/project/ChargingTerminal/build",
+  "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_bottom_bar.c",
+  "file": "/home/dyj/project/ChargingTerminal/src/ui/ui_bottom_bar.c",
+  "output": "CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.o"
+},
+{
+  "directory": "/home/dyj/project/ChargingTerminal/build",
   "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c",
   "file": "/home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c",
   "output": "CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o"

@@ -152,21 +152,21 @@ static lv_obj_t *ui_create_slot_card(lv_obj_t *parent, int x, int y, int w, int 
     lv_obj_t *v_value = lv_label_create(card);
     snprintf(buf, sizeof(buf), "%.1f V", voltage);
     lv_label_set_text(v_value, buf);
-    lv_obj_set_pos(v_value, 200, 40);
+    lv_obj_set_pos(v_value, 200, 43);
     lv_obj_set_style_text_color(v_value, lv_color_hex(0x0F172A), 0);
     lv_obj_set_style_text_font(v_value, ui_font_zh_12(), 0);
 
     lv_obj_t *a_value = lv_label_create(card);
     snprintf(buf, sizeof(buf), "%.1f A", current);
     lv_label_set_text(a_value, buf);
-    lv_obj_set_pos(a_value, 200, 62);
+    lv_obj_set_pos(a_value, 200, 65);
     lv_obj_set_style_text_color(a_value, lv_color_hex(0x0F172A), 0);
     lv_obj_set_style_text_font(a_value, ui_font_zh_12(), 0);
 
     lv_obj_t *t_value = lv_label_create(card);
     snprintf(buf, sizeof(buf), "%.1f ℃", temp);
     lv_label_set_text(t_value, buf);
-    lv_obj_set_pos(t_value, 200, 84);
+    lv_obj_set_pos(t_value, 200, 87);
 
     /*过温变红*/
     if (over_temp) {
@@ -190,8 +190,8 @@ void ui_create_slot_area(lv_obj_t *parent)
     int x1 = 18;
     int x2 = 288;
 
-    int y1 = 155;
-    int y2 = 290;
+    int y1 = 153;
+    int y2 = 280;
 
     /*1号仓位*/
     ui_create_slot_card(parent,

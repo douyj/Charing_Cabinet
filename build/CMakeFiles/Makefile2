@@ -234,12 +234,12 @@ lib/lvgl/CMakeFiles/lvgl.dir/clean:
 lib/lvgl/CMakeFiles/lvgl_examples.dir/all: lib/lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/lvgl/CMakeFiles/lvgl_examples.dir/build.make lib/lvgl/CMakeFiles/lvgl_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/lvgl/CMakeFiles/lvgl_examples.dir/build.make lib/lvgl/CMakeFiles/lvgl_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target lvgl_examples"
 .PHONY : lib/lvgl/CMakeFiles/lvgl_examples.dir/all
 
 # Build rule for subdir invocation for target.
 lib/lvgl/CMakeFiles/lvgl_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dyj/project/ChargingTerminal/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dyj/project/ChargingTerminal/build/CMakeFiles 79
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lvgl/CMakeFiles/lvgl_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dyj/project/ChargingTerminal/build/CMakeFiles 0
 .PHONY : lib/lvgl/CMakeFiles/lvgl_examples.dir/rule
@@ -251,7 +251,7 @@ lvgl_examples: lib/lvgl/CMakeFiles/lvgl_examples.dir/rule
 # codegen rule for target.
 lib/lvgl/CMakeFiles/lvgl_examples.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f lib/lvgl/CMakeFiles/lvgl_examples.dir/build.make lib/lvgl/CMakeFiles/lvgl_examples.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target lvgl_examples"
 .PHONY : lib/lvgl/CMakeFiles/lvgl_examples.dir/codegen
 
 # clean rule for target.
@@ -266,12 +266,12 @@ lib/lvgl/CMakeFiles/lvgl_examples.dir/clean:
 lib/lvgl/CMakeFiles/lvgl_demos.dir/all: lib/lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/lvgl/CMakeFiles/lvgl_demos.dir/build.make lib/lvgl/CMakeFiles/lvgl_demos.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/lvgl/CMakeFiles/lvgl_demos.dir/build.make lib/lvgl/CMakeFiles/lvgl_demos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62 "Built target lvgl_demos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63 "Built target lvgl_demos"
 .PHONY : lib/lvgl/CMakeFiles/lvgl_demos.dir/all
 
 # Build rule for subdir invocation for target.
 lib/lvgl/CMakeFiles/lvgl_demos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dyj/project/ChargingTerminal/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dyj/project/ChargingTerminal/build/CMakeFiles 56
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lvgl/CMakeFiles/lvgl_demos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dyj/project/ChargingTerminal/build/CMakeFiles 0
 .PHONY : lib/lvgl/CMakeFiles/lvgl_demos.dir/rule
@@ -283,7 +283,7 @@ lvgl_demos: lib/lvgl/CMakeFiles/lvgl_demos.dir/rule
 # codegen rule for target.
 lib/lvgl/CMakeFiles/lvgl_demos.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f lib/lvgl/CMakeFiles/lvgl_demos.dir/build.make lib/lvgl/CMakeFiles/lvgl_demos.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62 "Finished codegen for target lvgl_demos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63 "Finished codegen for target lvgl_demos"
 .PHONY : lib/lvgl/CMakeFiles/lvgl_demos.dir/codegen
 
 # clean rule for target.

@@ -1,28 +1,22 @@
-CMakeFiles/charging_terminal.dir/src/main.c.o: \
- /home/dyj/project/ChargingTerminal/src/main.c /usr/include/stdc-predef.h \
- /usr/include/unistd.h /usr/include/features.h \
- /usr/include/features-time64.h \
+CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.o: \
+ /home/dyj/project/ChargingTerminal/src/ui/ui_bottom_bar.c \
+ /usr/include/stdc-predef.h \
+ /home/dyj/project/ChargingTerminal/include/ui/ui_bottom_bar.h \
+ /home/dyj/project/ChargingTerminal/lib/lvgl/lvgl.h \
+ /home/dyj/project/ChargingTerminal/lib/lvgl/src/misc/lv_log.h \
+ /home/dyj/project/ChargingTerminal/lib/lvgl/src/lv_conf_internal.h \
+ /usr/lib/gcc/aarch64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
  /usr/include/aarch64-linux-gnu/bits/timesize.h \
  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
  /usr/include/aarch64-linux-gnu/bits/long-double.h \
  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
- /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
- /usr/include/aarch64-linux-gnu/bits/environments.h \
  /usr/include/aarch64-linux-gnu/bits/types.h \
  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
  /usr/include/aarch64-linux-gnu/bits/time64.h \
- /usr/lib/gcc/aarch64-linux-gnu/15/include/stddef.h \
- /usr/include/aarch64-linux-gnu/bits/confname.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
- /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
- /home/dyj/project/ChargingTerminal/lib/lvgl/lvgl.h \
- /home/dyj/project/ChargingTerminal/lib/lvgl/src/misc/lv_log.h \
- /home/dyj/project/ChargingTerminal/lib/lvgl/src/lv_conf_internal.h \
- /usr/lib/gcc/aarch64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
- /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
@@ -36,7 +30,7 @@ CMakeFiles/charging_terminal.dir/src/main.c.o: \
  /usr/lib/gcc/aarch64-linux-gnu/15/include/stdbool.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/misc/lv_math.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/misc/lv_mem.h \
- /usr/include/string.h \
+ /usr/lib/gcc/aarch64-linux-gnu/15/include/stddef.h /usr/include/string.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
@@ -250,13 +244,4 @@ CMakeFiles/charging_terminal.dir/src/main.c.o: \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lvgl.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/extra/widgets/span/lv_span.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lvgl.h \
- /home/dyj/project/ChargingTerminal/lib/lv_drivers/sdl/sdl.h \
- /home/dyj/project/ChargingTerminal/lv_drv_conf.h \
- /home/dyj/project/ChargingTerminal/lv_conf.h \
- /home/dyj/project/ChargingTerminal/lib/lv_drivers/sdl/sdl_common.h \
- /home/dyj/project/ChargingTerminal/include/ui/ui_top_bar.h \
- /home/dyj/project/ChargingTerminal/include/ui/ui_status_card.h \
- /home/dyj/project/ChargingTerminal/include/chinese/ui_fonts.h \
- /home/dyj/project/ChargingTerminal/include/ui/ui_cabinet_card.h \
- /home/dyj/project/ChargingTerminal/include/ui/ui_system_log.h \
- /home/dyj/project/ChargingTerminal/include/ui/ui_bottom_bar.h
+ /home/dyj/project/ChargingTerminal/include/chinese/ui_fonts.h

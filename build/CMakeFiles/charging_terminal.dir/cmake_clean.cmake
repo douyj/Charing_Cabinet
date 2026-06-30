@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o.d"
   "CMakeFiles/charging_terminal.dir/src/main.c.o"
   "CMakeFiles/charging_terminal.dir/src/main.c.o.d"
+  "CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.o"
+  "CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.o.d"
   "CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o"
   "CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o.d"
   "CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o"

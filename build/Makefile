@@ -384,6 +384,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/ui/ui_bottom_bar.o: src/ui/ui_bottom_bar.c.o
+.PHONY : src/ui/ui_bottom_bar.o
+
+# target to build an object file
+src/ui/ui_bottom_bar.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.o
+.PHONY : src/ui/ui_bottom_bar.c.o
+
+src/ui/ui_bottom_bar.i: src/ui/ui_bottom_bar.c.i
+.PHONY : src/ui/ui_bottom_bar.i
+
+# target to preprocess a source file
+src/ui/ui_bottom_bar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.i
+.PHONY : src/ui/ui_bottom_bar.c.i
+
+src/ui/ui_bottom_bar.s: src/ui/ui_bottom_bar.c.s
+.PHONY : src/ui/ui_bottom_bar.s
+
+# target to generate assembly for a file
+src/ui/ui_bottom_bar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_bottom_bar.c.s
+.PHONY : src/ui/ui_bottom_bar.c.s
+
 src/ui/ui_cabinet_card.o: src/ui/ui_cabinet_card.c.o
 .PHONY : src/ui/ui_cabinet_card.o
 
@@ -516,6 +540,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/ui/ui_bottom_bar.o"
+	@echo "... src/ui/ui_bottom_bar.i"
+	@echo "... src/ui/ui_bottom_bar.s"
 	@echo "... src/ui/ui_cabinet_card.o"
 	@echo "... src/ui/ui_cabinet_card.i"
 	@echo "... src/ui/ui_cabinet_card.s"

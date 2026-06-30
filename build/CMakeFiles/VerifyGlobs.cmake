@@ -10,6 +10,7 @@ set(OLD_GLOB
   "/home/dyj/project/ChargingTerminal/src/device/modbus_bus.c"
   "/home/dyj/project/ChargingTerminal/src/device/temperature_sensor.c"
   "/home/dyj/project/ChargingTerminal/src/main.c"
+  "/home/dyj/project/ChargingTerminal/src/ui/ui_bottom_bar.c"
   "/home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c"
   "/home/dyj/project/ChargingTerminal/src/ui/ui_status_card.c"
   "/home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c"
