@@ -1,4 +1,5 @@
 #include "ui/ui_top_bar.h"
+#include "chinese/ui_fonts.h"
 
 static lv_obj_t *g_label_time = NULL;     //顶部栏时间
 static lv_obj_t *g_label_server = NULL;     //服务器连接状态
@@ -45,7 +46,7 @@ void ui_create_top_bar(lv_obj_t *parent){
     lv_label_set_text(title, "充电系统");
     lv_obj_set_pos(title, 60,18);
     lv_obj_set_style_text_color(title, lv_color_hex(0x111827), 0);
-    lv_obj_set_style_text_font(title, &lv_font_simsun_16_cjk, 0);
+    lv_obj_set_style_text_font(title, ui_font_zh_16(), 0);
 
     /*子控件分割线1*/
     lv_obj_t *sep1 = lv_obj_create(top_bar);
@@ -61,13 +62,13 @@ void ui_create_top_bar(lv_obj_t *parent){
     lv_label_set_text(server_icon, LV_SYMBOL_UPLOAD);
     lv_obj_set_pos(server_icon, 555, 18);
     lv_obj_set_style_text_color(server_icon, lv_color_hex(0x1677FF), 0);
-    lv_obj_set_style_text_font(server_icon, &lv_font_simsun_16_cjk, 0);
+    lv_obj_set_style_text_font(server_icon, &lv_font_montserrat_16, 0);
 
     g_label_server = lv_label_create(top_bar);
     lv_label_set_text(g_label_server, "后台已连接");
     lv_obj_set_pos(g_label_server, 583, 18);
     lv_obj_set_style_text_color(g_label_server, lv_color_hex(0x334155), 0);
-    lv_obj_set_style_text_font(g_label_server, &lv_font_simsun_16_cjk, 0);
+    lv_obj_set_style_text_font(g_label_server, ui_font_zh_16(), 0);
 
     /*分割线2*/
     lv_obj_t *sep2 = lv_obj_create(top_bar);
@@ -83,8 +84,7 @@ void ui_create_top_bar(lv_obj_t *parent){
     lv_label_set_text(g_label_time, "15:32");
     lv_obj_set_pos(g_label_time, 720, 18);
     lv_obj_set_style_text_color(g_label_time, lv_color_hex(0x334155), 0);
-    lv_obj_set_style_text_font(g_label_time, &lv_font_montserrat_16, 0);
+    lv_obj_set_style_text_font(g_label_time, ui_font_zh_16(), 0);
 
 
 }
-

@@ -1,6 +1,24 @@
 [
 {
   "directory": "/home/dyj/project/ChargingTerminal/build",
+  "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o -c /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_12.c",
+  "file": "/home/dyj/project/ChargingTerminal/src/chinese/font_chinese_12.c",
+  "output": "CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o"
+},
+{
+  "directory": "/home/dyj/project/ChargingTerminal/build",
+  "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o -c /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_16.c",
+  "file": "/home/dyj/project/ChargingTerminal/src/chinese/font_chinese_16.c",
+  "output": "CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o"
+},
+{
+  "directory": "/home/dyj/project/ChargingTerminal/build",
+  "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o -c /home/dyj/project/ChargingTerminal/src/chinese/ui_fonts.c",
+  "file": "/home/dyj/project/ChargingTerminal/src/chinese/ui_fonts.c",
+  "output": "CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o"
+},
+{
+  "directory": "/home/dyj/project/ChargingTerminal/build",
   "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o -c /home/dyj/project/ChargingTerminal/src/device/modbus_bus.c",
   "file": "/home/dyj/project/ChargingTerminal/src/device/modbus_bus.c",
   "output": "CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o"
@@ -19,15 +37,21 @@
 },
 {
   "directory": "/home/dyj/project/ChargingTerminal/build",
-  "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o -c /home/dyj/project/ChargingTerminal/src/ui/cabinet_card.c",
-  "file": "/home/dyj/project/ChargingTerminal/src/ui/cabinet_card.c",
-  "output": "CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o"
+  "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c",
+  "file": "/home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c",
+  "output": "CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o"
 },
 {
   "directory": "/home/dyj/project/ChargingTerminal/build",
   "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_status_card.c",
   "file": "/home/dyj/project/ChargingTerminal/src/ui/ui_status_card.c",
   "output": "CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o"
+},
+{
+  "directory": "/home/dyj/project/ChargingTerminal/build",
+  "command": "/usr/bin/cc -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -I/home/dyj/project/ChargingTerminal/include -isystem /home/dyj/project/ChargingTerminal -isystem /home/dyj/project/ChargingTerminal/lib/lvgl -isystem /home/dyj/project/ChargingTerminal/lib/lv_drivers -isystem /usr/include/modbus -isystem /usr/include/SDL2 -std=gnu11 -fPIE -D_REENTRANT -o CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c",
+  "file": "/home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c",
+  "output": "CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o"
 },
 {
   "directory": "/home/dyj/project/ChargingTerminal/build",

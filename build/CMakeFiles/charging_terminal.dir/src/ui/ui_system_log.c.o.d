@@ -1,7 +1,7 @@
-CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o: \
- /home/dyj/project/ChargingTerminal/src/ui/ui_top_bar.c \
+CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o: \
+ /home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c \
  /usr/include/stdc-predef.h \
- /home/dyj/project/ChargingTerminal/include/ui/ui_top_bar.h \
+ /home/dyj/project/ChargingTerminal/include/ui/ui_system_log.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/lvgl.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/misc/lv_log.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lv_conf_internal.h \

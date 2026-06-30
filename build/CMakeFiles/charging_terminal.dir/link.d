@@ -2,14 +2,23 @@ bin/charging_terminal: \
   /usr/lib/gcc/aarch64-linux-gnu/15/../../../aarch64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/aarch64-linux-gnu/15/../../../aarch64-linux-gnu/crti.o \
   /usr/lib/gcc/aarch64-linux-gnu/15/crtbeginS.o \
+  CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o \
+  CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o \
+  CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o \
   CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o \
   CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o \
   CMakeFiles/charging_terminal.dir/src/main.c.o \
-  CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o \
+  CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o \
   CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o \
+  CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o \
   CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o \
   lib/liblvgl.a \
   lib/liblv_drivers.a \
+  /usr/lib/gcc/aarch64-linux-gnu/15/../../../aarch64-linux-gnu/libm.so \
+  /usr/lib/gcc/aarch64-linux-gnu/15/../../../aarch64-linux-gnu/libm.so \
+  /usr/lib/gcc/aarch64-linux-gnu/15/../../../aarch64-linux-gnu/libm.so \
+  /usr/lib/aarch64-linux-gnu/libm.so.6 \
+  /usr/lib/aarch64-linux-gnu/libmvec.so.1 \
   /usr/lib/aarch64-linux-gnu/libmodbus.so \
   /usr/lib/aarch64-linux-gnu/libSDL2.so \
   lib/liblvgl.a \
@@ -79,21 +88,39 @@ bin/charging_terminal: \
 
 /usr/lib/gcc/aarch64-linux-gnu/15/crtbeginS.o:
 
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o:
+
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o:
+
+CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o:
+
 CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o:
 
 CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o:
 
 CMakeFiles/charging_terminal.dir/src/main.c.o:
 
-CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o:
+CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o:
 
 CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o:
+
+CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o:
 
 CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o:
 
 lib/liblvgl.a:
 
 lib/liblv_drivers.a:
+
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../aarch64-linux-gnu/libm.so:
+
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../aarch64-linux-gnu/libm.so:
+
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../aarch64-linux-gnu/libm.so:
+
+/usr/lib/aarch64-linux-gnu/libm.so.6:
+
+/usr/lib/aarch64-linux-gnu/libmvec.so.1:
 
 /usr/lib/aarch64-linux-gnu/libmodbus.so:
 

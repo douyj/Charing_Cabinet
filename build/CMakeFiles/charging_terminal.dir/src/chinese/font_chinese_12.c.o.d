@@ -1,7 +1,6 @@
-CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o: \
- /home/dyj/project/ChargingTerminal/src/ui/ui_top_bar.c \
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o: \
+ /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_12.c \
  /usr/include/stdc-predef.h \
- /home/dyj/project/ChargingTerminal/include/ui/ui_top_bar.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/lvgl.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/misc/lv_log.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lv_conf_internal.h \
@@ -244,4 +243,4 @@ CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o: \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lvgl.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/extra/widgets/span/lv_span.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lvgl.h \
- /home/dyj/project/ChargingTerminal/include/chinese/ui_fonts.h
+ /home/dyj/project/ChargingTerminal/lib/lvgl/src/font/lv_font_fmt_txt.h

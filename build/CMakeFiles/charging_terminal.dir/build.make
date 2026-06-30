@@ -72,10 +72,52 @@ include CMakeFiles/charging_terminal.dir/flags.make
 CMakeFiles/charging_terminal.dir/codegen:
 .PHONY : CMakeFiles/charging_terminal.dir/codegen
 
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o: CMakeFiles/charging_terminal.dir/flags.make
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o: /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_12.c
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o -MF CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o.d -o CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o -c /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_12.c
+
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_12.c > CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.i
+
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_12.c -o CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.s
+
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o: CMakeFiles/charging_terminal.dir/flags.make
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o: /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_16.c
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o -MF CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o.d -o CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o -c /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_16.c
+
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_16.c > CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.i
+
+CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dyj/project/ChargingTerminal/src/chinese/font_chinese_16.c -o CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.s
+
+CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o: CMakeFiles/charging_terminal.dir/flags.make
+CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o: /home/dyj/project/ChargingTerminal/src/chinese/ui_fonts.c
+CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o -MF CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o.d -o CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o -c /home/dyj/project/ChargingTerminal/src/chinese/ui_fonts.c
+
+CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dyj/project/ChargingTerminal/src/chinese/ui_fonts.c > CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.i
+
+CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dyj/project/ChargingTerminal/src/chinese/ui_fonts.c -o CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.s
+
 CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o: CMakeFiles/charging_terminal.dir/flags.make
 CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o: /home/dyj/project/ChargingTerminal/src/device/modbus_bus.c
 CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o -MF CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o.d -o CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o -c /home/dyj/project/ChargingTerminal/src/device/modbus_bus.c
 
 CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.i: cmake_force
@@ -89,7 +131,7 @@ CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.s: cmake_force
 CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o: CMakeFiles/charging_terminal.dir/flags.make
 CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o: /home/dyj/project/ChargingTerminal/src/device/temperature_sensor.c
 CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o -MF CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o.d -o CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o -c /home/dyj/project/ChargingTerminal/src/device/temperature_sensor.c
 
 CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.i: cmake_force
@@ -103,7 +145,7 @@ CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.s: cmake_force
 CMakeFiles/charging_terminal.dir/src/main.c.o: CMakeFiles/charging_terminal.dir/flags.make
 CMakeFiles/charging_terminal.dir/src/main.c.o: /home/dyj/project/ChargingTerminal/src/main.c
 CMakeFiles/charging_terminal.dir/src/main.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/charging_terminal.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/charging_terminal.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/main.c.o -MF CMakeFiles/charging_terminal.dir/src/main.c.o.d -o CMakeFiles/charging_terminal.dir/src/main.c.o -c /home/dyj/project/ChargingTerminal/src/main.c
 
 CMakeFiles/charging_terminal.dir/src/main.c.i: cmake_force
@@ -114,24 +156,24 @@ CMakeFiles/charging_terminal.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/charging_terminal.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dyj/project/ChargingTerminal/src/main.c -o CMakeFiles/charging_terminal.dir/src/main.c.s
 
-CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o: CMakeFiles/charging_terminal.dir/flags.make
-CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o: /home/dyj/project/ChargingTerminal/src/ui/cabinet_card.c
-CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o -MF CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o.d -o CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o -c /home/dyj/project/ChargingTerminal/src/ui/cabinet_card.c
+CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o: CMakeFiles/charging_terminal.dir/flags.make
+CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o: /home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c
+CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o -MF CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o.d -o CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c
 
-CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dyj/project/ChargingTerminal/src/ui/cabinet_card.c > CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.i
+CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c > CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.i
 
-CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dyj/project/ChargingTerminal/src/ui/cabinet_card.c -o CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.s
+CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c -o CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.s
 
 CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o: CMakeFiles/charging_terminal.dir/flags.make
 CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o: /home/dyj/project/ChargingTerminal/src/ui/ui_status_card.c
 CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o -MF CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o.d -o CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_status_card.c
 
 CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.i: cmake_force
@@ -142,10 +184,24 @@ CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dyj/project/ChargingTerminal/src/ui/ui_status_card.c -o CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.s
 
+CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o: CMakeFiles/charging_terminal.dir/flags.make
+CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o: /home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c
+CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o -MF CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o.d -o CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c
+
+CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c > CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.i
+
+CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dyj/project/ChargingTerminal/src/ui/ui_system_log.c -o CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.s
+
 CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o: CMakeFiles/charging_terminal.dir/flags.make
 CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o: /home/dyj/project/ChargingTerminal/src/ui/ui_top_bar.c
 CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o: CMakeFiles/charging_terminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o -MF CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o.d -o CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o -c /home/dyj/project/ChargingTerminal/src/ui/ui_top_bar.c
 
 CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.i: cmake_force
@@ -158,21 +214,29 @@ CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.s: cmake_force
 
 # Object files for target charging_terminal
 charging_terminal_OBJECTS = \
+"CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o" \
+"CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o" \
+"CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o" \
 "CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o" \
 "CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o" \
 "CMakeFiles/charging_terminal.dir/src/main.c.o" \
-"CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o" \
+"CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o" \
 "CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o" \
+"CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o" \
 "CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o"
 
 # External object files for target charging_terminal
 charging_terminal_EXTERNAL_OBJECTS =
 
+bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o
+bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o
+bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o
 bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/device/modbus_bus.c.o
 bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/device/temperature_sensor.c.o
 bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/main.c.o
-bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o
+bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o
 bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.o
+bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o
 bin/charging_terminal: CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o
 bin/charging_terminal: CMakeFiles/charging_terminal.dir/build.make
 bin/charging_terminal: CMakeFiles/charging_terminal.dir/compiler_depend.ts
@@ -182,7 +246,7 @@ bin/charging_terminal: /usr/lib/aarch64-linux-gnu/libmodbus.so
 bin/charging_terminal: /usr/lib/aarch64-linux-gnu/libSDL2.so
 bin/charging_terminal: lib/liblvgl.a
 bin/charging_terminal: CMakeFiles/charging_terminal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable bin/charging_terminal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dyj/project/ChargingTerminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable bin/charging_terminal"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/charging_terminal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

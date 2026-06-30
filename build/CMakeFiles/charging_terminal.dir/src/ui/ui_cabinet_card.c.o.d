@@ -1,7 +1,7 @@
-CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o: \
- /home/dyj/project/ChargingTerminal/src/ui/ui_top_bar.c \
+CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o: \
+ /home/dyj/project/ChargingTerminal/src/ui/ui_cabinet_card.c \
  /usr/include/stdc-predef.h \
- /home/dyj/project/ChargingTerminal/include/ui/ui_top_bar.h \
+ /home/dyj/project/ChargingTerminal/include/ui/ui_cabinet_card.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/lvgl.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/misc/lv_log.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lv_conf_internal.h \
@@ -244,4 +244,15 @@ CMakeFiles/charging_terminal.dir/src/ui/ui_top_bar.c.o: \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lvgl.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/extra/widgets/span/lv_span.h \
  /home/dyj/project/ChargingTerminal/lib/lvgl/src/lvgl.h \
- /home/dyj/project/ChargingTerminal/include/chinese/ui_fonts.h
+ /home/dyj/project/ChargingTerminal/include/chinese/ui_fonts.h \
+ /usr/include/stdio.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn-common.h

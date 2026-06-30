@@ -240,6 +240,78 @@ lv_drivers/fast:
 	$(MAKE) $(MAKESILENT) -f lib/lv_drivers/CMakeFiles/lv_drivers.dir/build.make lib/lv_drivers/CMakeFiles/lv_drivers.dir/build
 .PHONY : lv_drivers/fast
 
+src/chinese/font_chinese_12.o: src/chinese/font_chinese_12.c.o
+.PHONY : src/chinese/font_chinese_12.o
+
+# target to build an object file
+src/chinese/font_chinese_12.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.o
+.PHONY : src/chinese/font_chinese_12.c.o
+
+src/chinese/font_chinese_12.i: src/chinese/font_chinese_12.c.i
+.PHONY : src/chinese/font_chinese_12.i
+
+# target to preprocess a source file
+src/chinese/font_chinese_12.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.i
+.PHONY : src/chinese/font_chinese_12.c.i
+
+src/chinese/font_chinese_12.s: src/chinese/font_chinese_12.c.s
+.PHONY : src/chinese/font_chinese_12.s
+
+# target to generate assembly for a file
+src/chinese/font_chinese_12.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_12.c.s
+.PHONY : src/chinese/font_chinese_12.c.s
+
+src/chinese/font_chinese_16.o: src/chinese/font_chinese_16.c.o
+.PHONY : src/chinese/font_chinese_16.o
+
+# target to build an object file
+src/chinese/font_chinese_16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.o
+.PHONY : src/chinese/font_chinese_16.c.o
+
+src/chinese/font_chinese_16.i: src/chinese/font_chinese_16.c.i
+.PHONY : src/chinese/font_chinese_16.i
+
+# target to preprocess a source file
+src/chinese/font_chinese_16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.i
+.PHONY : src/chinese/font_chinese_16.c.i
+
+src/chinese/font_chinese_16.s: src/chinese/font_chinese_16.c.s
+.PHONY : src/chinese/font_chinese_16.s
+
+# target to generate assembly for a file
+src/chinese/font_chinese_16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/font_chinese_16.c.s
+.PHONY : src/chinese/font_chinese_16.c.s
+
+src/chinese/ui_fonts.o: src/chinese/ui_fonts.c.o
+.PHONY : src/chinese/ui_fonts.o
+
+# target to build an object file
+src/chinese/ui_fonts.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.o
+.PHONY : src/chinese/ui_fonts.c.o
+
+src/chinese/ui_fonts.i: src/chinese/ui_fonts.c.i
+.PHONY : src/chinese/ui_fonts.i
+
+# target to preprocess a source file
+src/chinese/ui_fonts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.i
+.PHONY : src/chinese/ui_fonts.c.i
+
+src/chinese/ui_fonts.s: src/chinese/ui_fonts.c.s
+.PHONY : src/chinese/ui_fonts.s
+
+# target to generate assembly for a file
+src/chinese/ui_fonts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/chinese/ui_fonts.c.s
+.PHONY : src/chinese/ui_fonts.c.s
+
 src/device/modbus_bus.o: src/device/modbus_bus.c.o
 .PHONY : src/device/modbus_bus.o
 
@@ -312,29 +384,29 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/ui/cabinet_card.o: src/ui/cabinet_card.c.o
-.PHONY : src/ui/cabinet_card.o
+src/ui/ui_cabinet_card.o: src/ui/ui_cabinet_card.c.o
+.PHONY : src/ui/ui_cabinet_card.o
 
 # target to build an object file
-src/ui/cabinet_card.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.o
-.PHONY : src/ui/cabinet_card.c.o
+src/ui/ui_cabinet_card.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.o
+.PHONY : src/ui/ui_cabinet_card.c.o
 
-src/ui/cabinet_card.i: src/ui/cabinet_card.c.i
-.PHONY : src/ui/cabinet_card.i
+src/ui/ui_cabinet_card.i: src/ui/ui_cabinet_card.c.i
+.PHONY : src/ui/ui_cabinet_card.i
 
 # target to preprocess a source file
-src/ui/cabinet_card.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.i
-.PHONY : src/ui/cabinet_card.c.i
+src/ui/ui_cabinet_card.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.i
+.PHONY : src/ui/ui_cabinet_card.c.i
 
-src/ui/cabinet_card.s: src/ui/cabinet_card.c.s
-.PHONY : src/ui/cabinet_card.s
+src/ui/ui_cabinet_card.s: src/ui/ui_cabinet_card.c.s
+.PHONY : src/ui/ui_cabinet_card.s
 
 # target to generate assembly for a file
-src/ui/cabinet_card.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/cabinet_card.c.s
-.PHONY : src/ui/cabinet_card.c.s
+src/ui/ui_cabinet_card.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_cabinet_card.c.s
+.PHONY : src/ui/ui_cabinet_card.c.s
 
 src/ui/ui_status_card.o: src/ui/ui_status_card.c.o
 .PHONY : src/ui/ui_status_card.o
@@ -359,6 +431,30 @@ src/ui/ui_status_card.s: src/ui/ui_status_card.c.s
 src/ui/ui_status_card.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_status_card.c.s
 .PHONY : src/ui/ui_status_card.c.s
+
+src/ui/ui_system_log.o: src/ui/ui_system_log.c.o
+.PHONY : src/ui/ui_system_log.o
+
+# target to build an object file
+src/ui/ui_system_log.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.o
+.PHONY : src/ui/ui_system_log.c.o
+
+src/ui/ui_system_log.i: src/ui/ui_system_log.c.i
+.PHONY : src/ui/ui_system_log.i
+
+# target to preprocess a source file
+src/ui/ui_system_log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.i
+.PHONY : src/ui/ui_system_log.c.i
+
+src/ui/ui_system_log.s: src/ui/ui_system_log.c.s
+.PHONY : src/ui/ui_system_log.s
+
+# target to generate assembly for a file
+src/ui/ui_system_log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charging_terminal.dir/build.make CMakeFiles/charging_terminal.dir/src/ui/ui_system_log.c.s
+.PHONY : src/ui/ui_system_log.c.s
 
 src/ui/ui_top_bar.o: src/ui/ui_top_bar.c.o
 .PHONY : src/ui/ui_top_bar.o
@@ -402,6 +498,15 @@ help:
 	@echo "... lvgl"
 	@echo "... lvgl_demos"
 	@echo "... lvgl_examples"
+	@echo "... src/chinese/font_chinese_12.o"
+	@echo "... src/chinese/font_chinese_12.i"
+	@echo "... src/chinese/font_chinese_12.s"
+	@echo "... src/chinese/font_chinese_16.o"
+	@echo "... src/chinese/font_chinese_16.i"
+	@echo "... src/chinese/font_chinese_16.s"
+	@echo "... src/chinese/ui_fonts.o"
+	@echo "... src/chinese/ui_fonts.i"
+	@echo "... src/chinese/ui_fonts.s"
 	@echo "... src/device/modbus_bus.o"
 	@echo "... src/device/modbus_bus.i"
 	@echo "... src/device/modbus_bus.s"
@@ -411,12 +516,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/ui/cabinet_card.o"
-	@echo "... src/ui/cabinet_card.i"
-	@echo "... src/ui/cabinet_card.s"
+	@echo "... src/ui/ui_cabinet_card.o"
+	@echo "... src/ui/ui_cabinet_card.i"
+	@echo "... src/ui/ui_cabinet_card.s"
 	@echo "... src/ui/ui_status_card.o"
 	@echo "... src/ui/ui_status_card.i"
 	@echo "... src/ui/ui_status_card.s"
+	@echo "... src/ui/ui_system_log.o"
+	@echo "... src/ui/ui_system_log.i"
+	@echo "... src/ui/ui_system_log.s"
 	@echo "... src/ui/ui_top_bar.o"
 	@echo "... src/ui/ui_top_bar.i"
 	@echo "... src/ui/ui_top_bar.s"

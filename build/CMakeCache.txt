@@ -237,7 +237,7 @@ ChargingTerminal_SOURCE_DIR:STATIC=/home/dyj/project/ChargingTerminal
 LV_CONF_INCLUDE_SIMPLE:BOOL=ON
 
 //Path defined for lv_conf.h
-LV_CONF_PATH:BOOL=OFF
+LV_CONF_PATH:STRING=/home/dyj/project/ChargingTerminal/lv_conf.h
 
 //Use #include "lvgl.h" instead of #include "../../lvgl.h"
 LV_LVGL_H_INCLUDE_SIMPLE:BOOL=ON
